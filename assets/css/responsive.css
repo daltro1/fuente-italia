@@ -6,6 +6,11 @@
     .barra-navegacion .datos-contacto ul {
         text-align: center;
         margin-bottom: 50px;
+        padding-left: 0;
+    }
+
+    .barra-navegacion .redes-sociales {
+        margin-left: 0;
     }
 
     .carta .hoja {

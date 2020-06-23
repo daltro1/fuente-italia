@@ -82,6 +82,7 @@ img {
 .barra-navegacion ul {
     text-align: left;
     list-style-type: none;
+    padding-left: 40px;
 }
 .barra-navegacion ul li {
     margin-bottom: 10px;
