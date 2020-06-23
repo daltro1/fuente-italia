@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('../fonts/Chalkduster.woff2') format('woff2'),
+        url('../fonts/Chalkduster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bradley_hand_itc_ttbold';
+    src: url('../fonts/bradley-hand-itc-tt-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bradley-hand-itc-tt-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.boton {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.boton img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.barra-navegacion {
+    background: linear-gradient(0deg, #000 0%, rgb(122, 122, 122) 100%);
+    width: 100%;
+    text-align: center;
+}
+.barra-navegacion .frame-logo {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.barra-navegacion .frame-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.barra-navegacion .datos-contacto {
+    display:  inline-block;
+    vertical-align: middle;
+}
+
+.barra-navegacion .datos-contacto .boton {
+    width: 30px;
+    height: 30px;
+}
+
+.barra-navegacion ul {
+    text-align: left;
+    list-style-type: none;
+}
+.barra-navegacion ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.barra-navegacion ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.barra-navegacion .redes-sociales {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.barra-navegacion p {
+    font-size: 20px;
+}
+
+.barra-navegacion .redes-sociales .boton {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+.barra-navegacion .redes-sociales .boton:hover {
+    transform: translateY(-10px);
+}
+
+.carta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carta .hoja {
+    width:  450px;
+    height: 450px;
+    margin: 30px;
+    transition: 0.6s all;
+}
+
+.carta .hoja:hover {
+    box-shadow: 0 0 10px 5px #fff;
+}
