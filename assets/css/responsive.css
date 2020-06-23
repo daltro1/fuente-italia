@@ -1,0 +1,14 @@
+@media only screen and (max-width: 767px) {
+    .barra-navegacion .frame-logo {
+        margin-bottom: 100px;
+    }
+
+    .barra-navegacion .datos-contacto ul {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .carta .hoja {
+        margin: 30px 60px;
+    }
+} 
